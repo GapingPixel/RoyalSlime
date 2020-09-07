@@ -68,7 +68,7 @@ for (var _i = 0; _i < _member_count; _i++) {
 }
 player_box[| 0].monster_id =  MONSTERS.DRACO;
 player_box[| 0].stat_agi = 100;
-player_box[| 0].passives_list = [MON_PASSIVES.SLIME_MELEE, MON_PASSIVES.MULTI_HIT];
+player_box[| 0].passives_list = [MON_PASSIVES.DRAGO_RANGED];
 player_box[| 0].multi_hit = 3;
 player_box[| 0].stat_level = 11;
 player_box[| 0].my_name = "Danieru";
@@ -80,7 +80,7 @@ player_box[| 0].walk_sprite = Slime_Draco_Walk;
 
 player_box[| 1].monster_id =  MONSTERS.DRACO;
 player_box[| 1].stat_base[MON_STATS.AGI] = 90;
-player_box[| 1].passives_list = [MON_PASSIVES.SLIME_MELEE, MON_PASSIVES.HASTY, MON_PASSIVES.MULTI_HIT];
+player_box[| 1].passives_list = [MON_PASSIVES.DRAGO_RANGED];
 player_box[| 1].multi_hit = 2;
 player_box[| 1].stat_level = 56;
 player_box[| 1].my_name = "Mo";
